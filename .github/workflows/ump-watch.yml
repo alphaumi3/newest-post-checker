@@ -1,4 +1,4 @@
-# Đặt tại: .github/workflows/ump-watch.yml
+# Đặt tại: .github/workflows/ump-watch.yml (lịch 15 phút)
 name: UMP watch
 
 on:
