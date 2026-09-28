@@ -1,52 +1,116 @@
 {
-  "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/11004/danh-sach-thi-sinh-du-dieu-kien-du-thi-phan-thi-phong-vantuyen-sinh-bac-si-noi-trunam-2026": {
-    "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/11004/danh-sach-thi-sinh-du-dieu-kien-du-thi-phan-thi-phong-vantuyen-sinh-bac-si-noi-trunam-2026",
-    "title": "Danh sách thí sinh đủ điều kiện dự thi phần thi phỏng vấn tuyển sinh Bác sĩ nội trú năm 2026",
-    "date": "18/09/2026"
+  "ump": {
+    "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/11004/danh-sach-thi-sinh-du-dieu-kien-du-thi-phan-thi-phong-vantuyen-sinh-bac-si-noi-trunam-2026": {
+      "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/11004/danh-sach-thi-sinh-du-dieu-kien-du-thi-phan-thi-phong-vantuyen-sinh-bac-si-noi-trunam-2026",
+      "title": "Danh sách thí sinh đủ điều kiện dự thi phần thi phỏng vấn tuyển sinh Bác sĩ nội trú năm 2026",
+      "date": "18/09/2026"
+    },
+    "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10976/danh-sach-thi-sinh-du-dieu-kien-mien-ngoai-ngutrong-ky-thi-tuyen-sinh-sau-dai-hocnam-2026-dot-2-bo-sung": {
+      "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10976/danh-sach-thi-sinh-du-dieu-kien-mien-ngoai-ngutrong-ky-thi-tuyen-sinh-sau-dai-hocnam-2026-dot-2-bo-sung",
+      "title": "Danh sách thí sinh đủ điều kiện miễn ngoại ngữ trong kỳ thi tuyển sinh sau đại học năm 2026 đợt 2 (bổ sung)",
+      "date": "08/09/2026"
+    },
+    "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10969/thong-bao-phong-thi-tuyen-sinh-trinh-do-tien-si-2026-dot-2": {
+      "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10969/thong-bao-phong-thi-tuyen-sinh-trinh-do-tien-si-2026-dot-2",
+      "title": "Thông báo phòng thi tuyển sinh trình độ tiến sĩ 2026 đợt 2",
+      "date": "28/08/2026"
+    },
+    "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10972/thong-bao-so-do-phong-thi-va-chuong-trinh-sinh-hoat-pho-bien-quy-che-thi-cho-thi-sinh-du-thi-tuyen-sinh-sau-dai-hoc-nam-2026-dot-2": {
+      "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10972/thong-bao-so-do-phong-thi-va-chuong-trinh-sinh-hoat-pho-bien-quy-che-thi-cho-thi-sinh-du-thi-tuyen-sinh-sau-dai-hoc-nam-2026-dot-2",
+      "title": "Thông báo Sơ đồ phòng thi và chương trình sinh hoạt, phổ biến quy chế thi cho thí sinh dự thi tuyển sinh sau đại học năm 2026 - đợt 2",
+      "date": "27/08/2026"
+    },
+    "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10906/danh-sach-thi-sinh-du-dieu-kien-du-thimien-ngoai-ngu-va-huong-che-do-uu-tientrong-ky-thi-tuyen-sinh-sau-dai-hocnam-2026-dot-2": {
+      "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10906/danh-sach-thi-sinh-du-dieu-kien-du-thimien-ngoai-ngu-va-huong-che-do-uu-tientrong-ky-thi-tuyen-sinh-sau-dai-hocnam-2026-dot-2",
+      "title": "Danh sách thí sinh đủ điều kiện dự thi, miễn ngoại ngữ và hưởng chế độ ưu tiên trong kỳ thi tuyển sinh sau đại học năm 2026 đợt 2",
+      "date": "24/08/2026"
+    },
+    "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10899/chuong-trinh-pho-bien-quy-che-thi-tuyen-sinh-sau-dai-hoc-nam2026-dot-2": {
+      "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10899/chuong-trinh-pho-bien-quy-che-thi-tuyen-sinh-sau-dai-hoc-nam2026-dot-2",
+      "title": "CHƯƠNG TRÌNH PHỔ BIẾN QUY CHẾ THI TUYỂN SINH SAU ĐẠI HỌC NĂM 2026- ĐỢT 2",
+      "date": "22/08/2026"
+    },
+    "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10893/thong-bao-ve-viec-cong-bo-danh-sach-trung-tuyen-sau-dai-hoc-bo-sung-nam-2026": {
+      "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10893/thong-bao-ve-viec-cong-bo-danh-sach-trung-tuyen-sau-dai-hoc-bo-sung-nam-2026",
+      "title": "Thông báo về việc công bố danh sách trúng tuyển sau đại học bổ sung năm 2026",
+      "date": "21/08/2026"
+    },
+    "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10646/thong-bao-ve-viec-cong-bo-danh-sach-thi-sinh-duoc-cong-nhan-trung-tuyen-sau-dai-hoc-nam-2026-va-huong-dan-nop-ho-so-nhap-hoc": {
+      "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10646/thong-bao-ve-viec-cong-bo-danh-sach-thi-sinh-duoc-cong-nhan-trung-tuyen-sau-dai-hoc-nam-2026-va-huong-dan-nop-ho-so-nhap-hoc",
+      "title": "Thông báo về việc công bố danh sách thí sinh được công nhận trúng tuyển sau đại học năm 2026 và hướng dẫn nộp hồ sơ nhập học",
+      "date": "26/06/2026"
+    },
+    "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10645/thong-bao-ve-viec-cong-bo-ket-qua-cham-phuc-khao-tuyen-sinh-sau-dai-hoc-nam-2026": {
+      "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10645/thong-bao-ve-viec-cong-bo-ket-qua-cham-phuc-khao-tuyen-sinh-sau-dai-hoc-nam-2026",
+      "title": "Thông báo về việc công bố kết quả chấm phúc khảo tuyển sinh sau đại học năm 2026",
+      "date": "26/06/2026"
+    },
+    "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10987/thong-bao-de-cuong-on-tapnoi-dung-phieu-danh-giaphan-thi-phong-vanva-quy-che-thi-phong-vanbac-si-noi-tru-nam-2026": {
+      "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10987/thong-bao-de-cuong-on-tapnoi-dung-phieu-danh-giaphan-thi-phong-vanva-quy-che-thi-phong-vanbac-si-noi-tru-nam-2026",
+      "title": "Thông báo đề cương ôn tập, nội dung phiếu đánh giá phần thi phỏng vấn và quy chế thi phỏng vấn Bác sĩ nội trú năm 2026",
+      "date": "11/09/2026"
+    }
   },
-  "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10976/danh-sach-thi-sinh-du-dieu-kien-mien-ngoai-ngutrong-ky-thi-tuyen-sinh-sau-dai-hocnam-2026-dot-2-bo-sung": {
-    "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10976/danh-sach-thi-sinh-du-dieu-kien-mien-ngoai-ngutrong-ky-thi-tuyen-sinh-sau-dai-hocnam-2026-dot-2-bo-sung",
-    "title": "Danh sách thí sinh đủ điều kiện miễn ngoại ngữ trong kỳ thi tuyển sinh sau đại học năm 2026 đợt 2 (bổ sung)",
-    "date": "08/09/2026"
-  },
-  "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10969/thong-bao-phong-thi-tuyen-sinh-trinh-do-tien-si-2026-dot-2": {
-    "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10969/thong-bao-phong-thi-tuyen-sinh-trinh-do-tien-si-2026-dot-2",
-    "title": "Thông báo phòng thi tuyển sinh trình độ tiến sĩ 2026 đợt 2",
-    "date": "28/08/2026"
-  },
-  "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10972/thong-bao-so-do-phong-thi-va-chuong-trinh-sinh-hoat-pho-bien-quy-che-thi-cho-thi-sinh-du-thi-tuyen-sinh-sau-dai-hoc-nam-2026-dot-2": {
-    "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10972/thong-bao-so-do-phong-thi-va-chuong-trinh-sinh-hoat-pho-bien-quy-che-thi-cho-thi-sinh-du-thi-tuyen-sinh-sau-dai-hoc-nam-2026-dot-2",
-    "title": "Thông báo Sơ đồ phòng thi và chương trình sinh hoạt, phổ biến quy chế thi cho thí sinh dự thi tuyển sinh sau đại học năm 2026 - đợt 2",
-    "date": "27/08/2026"
-  },
-  "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10906/danh-sach-thi-sinh-du-dieu-kien-du-thimien-ngoai-ngu-va-huong-che-do-uu-tientrong-ky-thi-tuyen-sinh-sau-dai-hocnam-2026-dot-2": {
-    "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10906/danh-sach-thi-sinh-du-dieu-kien-du-thimien-ngoai-ngu-va-huong-che-do-uu-tientrong-ky-thi-tuyen-sinh-sau-dai-hocnam-2026-dot-2",
-    "title": "Danh sách thí sinh đủ điều kiện dự thi, miễn ngoại ngữ và hưởng chế độ ưu tiên trong kỳ thi tuyển sinh sau đại học năm 2026 đợt 2",
-    "date": "24/08/2026"
-  },
-  "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10899/chuong-trinh-pho-bien-quy-che-thi-tuyen-sinh-sau-dai-hoc-nam2026-dot-2": {
-    "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10899/chuong-trinh-pho-bien-quy-che-thi-tuyen-sinh-sau-dai-hoc-nam2026-dot-2",
-    "title": "CHƯƠNG TRÌNH PHỔ BIẾN QUY CHẾ THI TUYỂN SINH SAU ĐẠI HỌC NĂM 2026- ĐỢT 2",
-    "date": "22/08/2026"
-  },
-  "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10893/thong-bao-ve-viec-cong-bo-danh-sach-trung-tuyen-sau-dai-hoc-bo-sung-nam-2026": {
-    "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10893/thong-bao-ve-viec-cong-bo-danh-sach-trung-tuyen-sau-dai-hoc-bo-sung-nam-2026",
-    "title": "Thông báo về việc công bố danh sách trúng tuyển sau đại học bổ sung năm 2026",
-    "date": "21/08/2026"
-  },
-  "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10646/thong-bao-ve-viec-cong-bo-danh-sach-thi-sinh-duoc-cong-nhan-trung-tuyen-sau-dai-hoc-nam-2026-va-huong-dan-nop-ho-so-nhap-hoc": {
-    "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10646/thong-bao-ve-viec-cong-bo-danh-sach-thi-sinh-duoc-cong-nhan-trung-tuyen-sau-dai-hoc-nam-2026-va-huong-dan-nop-ho-so-nhap-hoc",
-    "title": "Thông báo về việc công bố danh sách thí sinh được công nhận trúng tuyển sau đại học năm 2026 và hướng dẫn nộp hồ sơ nhập học",
-    "date": "26/06/2026"
-  },
-  "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10645/thong-bao-ve-viec-cong-bo-ket-qua-cham-phuc-khao-tuyen-sinh-sau-dai-hoc-nam-2026": {
-    "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10645/thong-bao-ve-viec-cong-bo-ket-qua-cham-phuc-khao-tuyen-sinh-sau-dai-hoc-nam-2026",
-    "title": "Thông báo về việc công bố kết quả chấm phúc khảo tuyển sinh sau đại học năm 2026",
-    "date": "26/06/2026"
-  },
-  "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10987/thong-bao-de-cuong-on-tapnoi-dung-phieu-danh-giaphan-thi-phong-vanva-quy-che-thi-phong-vanbac-si-noi-tru-nam-2026": {
-    "url": "https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh/10987/thong-bao-de-cuong-on-tapnoi-dung-phieu-danh-giaphan-thi-phong-vanva-quy-che-thi-phong-vanbac-si-noi-tru-nam-2026",
-    "title": "Thông báo đề cương ôn tập, nội dung phiếu đánh giá phần thi phỏng vấn và quy chế thi phỏng vấn Bác sĩ nội trú năm 2026",
-    "date": "11/09/2026"
+  "pnt": {
+    "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/thong-bao-so-do-phong-thi-tuyen-sinh-sau-dai-hoc-dot-2-nam-2026": {
+      "url": "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/thong-bao-so-do-phong-thi-tuyen-sinh-sau-dai-hoc-dot-2-nam-2026",
+      "title": "THÔNG BÁO SƠ ĐỒ PHÒNG THI TUYỂN SINH SAU ĐẠI HỌC ĐỢT 2 NĂM 2026",
+      "date": "27/08/2026"
+    },
+    "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/danh-sach-thi-sinh-du-dieu-kien-du-thi-tuyen-sinh-trinh-do-bac-si-noi-tru-nam-2026": {
+      "url": "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/danh-sach-thi-sinh-du-dieu-kien-du-thi-tuyen-sinh-trinh-do-bac-si-noi-tru-nam-2026",
+      "title": "DANH SÁCH THÍ SINH ĐỦ ĐIỀU KIỆN DỰ THI TUYỂN SINH TRÌNH ĐỘ BÁC SĨ NỘI TRÚ NĂM 2026",
+      "date": "18/08/2026"
+    },
+    "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/quyet-dinh-ve-viec-mien-thi-mon-ngoai-ngu-doi-voi-thi-sinh-dang-ky-du-thi-trinh-do-bac-si-noi-tru-ky-thi-tuyen-sinh-sau-dai-hoc-nam-2026": {
+      "url": "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/quyet-dinh-ve-viec-mien-thi-mon-ngoai-ngu-doi-voi-thi-sinh-dang-ky-du-thi-trinh-do-bac-si-noi-tru-ky-thi-tuyen-sinh-sau-dai-hoc-nam-2026",
+      "title": "QUYẾT ĐỊNH VỀ VIỆC MIỄN THI MÔN NGOẠI NGỮ ĐỐI VỚI THÍ SINH ĐĂNG KÝ DỰ THI TRÌNH ĐỘ BÁC SĨ NỘI TRÚ KỲ THI TUYỂN SINH SAU ĐẠI HỌC NĂM 2026",
+      "date": "17/08/2026"
+    },
+    "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/danh-sach-du-dieu-kien-du-thi-tuyen-sinh-thac-si-nam-2026": {
+      "url": "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/danh-sach-du-dieu-kien-du-thi-tuyen-sinh-thac-si-nam-2026",
+      "title": "DANH SÁCH ĐỦ ĐIỀU KIỆN DỰ THI TUYỂN SINH THẠC SĨ NĂM 2026",
+      "date": "14/08/2026"
+    },
+    "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/quyet-dinh-ve-viec-huong-che-do-uu-tien-doi-voi-thi-sinh-dang-ky-du-thi-trinh-do-thac-si-ky-thi-tuyen-sinh-sau-dai-hoc-nam-2026": {
+      "url": "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/quyet-dinh-ve-viec-huong-che-do-uu-tien-doi-voi-thi-sinh-dang-ky-du-thi-trinh-do-thac-si-ky-thi-tuyen-sinh-sau-dai-hoc-nam-2026",
+      "title": "QUYẾT ĐỊNH VỀ VIỆC HƯỞNG CHẾ ĐỘ ƯU TIÊN ĐỐI VỚI THI SINH ĐĂNG KÝ DỰ THI TRÌNH ĐỘ THẠC SĨ KỲ THI TUYỂN SINH SAU ĐẠI HỌC NĂM 2026",
+      "date": "14/08/2026"
+    },
+    "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/danh-sach-du-kien-duoc-mien-thi-mon-ngoai-ngu-ky-thi-tuyen-sinh-sau-dai-hoc-nam-2026-dot-2": {
+      "url": "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/danh-sach-du-kien-duoc-mien-thi-mon-ngoai-ngu-ky-thi-tuyen-sinh-sau-dai-hoc-nam-2026-dot-2",
+      "title": "DANH SÁCH DỰ KIẾN ĐƯỢC MIỄN THI MÔN NGOẠI NGỮ KỲ THI TUYỂN SINH SAU ĐẠI HỌC NĂM 2026 ĐỢT 2",
+      "date": "07/08/2026"
+    },
+    "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/danh-sach-thi-sinh-du-kien-xet-duyet-ho-so-dang-ky-uu-tien-2026-dot-2": {
+      "url": "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/danh-sach-thi-sinh-du-kien-xet-duyet-ho-so-dang-ky-uu-tien-2026-dot-2",
+      "title": "DANH SÁCH THÍ SINH DỰ KIẾN XÉT DUYỆT HỒ SƠ ĐĂNG KÝ ƯU TIÊN 2026 ĐỢT 2",
+      "date": "07/08/2026"
+    },
+    "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/thong-bao-cong-bo-danh-sach-thi-sinh-trung-tuyen-bo-sung-va-quyet-dinh-danh-sach-cong-nhan-trung-tuyen-bo-sung-chuyen-khoa-cap-i-chuyen-khoa-cap-ii-nam-2026": {
+      "url": "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/thong-bao-cong-bo-danh-sach-thi-sinh-trung-tuyen-bo-sung-va-quyet-dinh-danh-sach-cong-nhan-trung-tuyen-bo-sung-chuyen-khoa-cap-i-chuyen-khoa-cap-ii-nam-2026",
+      "title": "THÔNG BÁO CÔNG BỐ DANH SÁCH THÍ SINH TRÚNG TUYỂN BỔ SUNG VÀ QUYẾT ĐỊNH DANH SÁCH CÔNG NHẬN TRÚNG TUYỂN BỔ SUNG CHUYÊN KHOA CẤP I, CHUYÊN KHOA CẤP II NĂM 2026",
+      "date": "23/07/2026"
+    },
+    "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/danh-sach-hoc-vien-nop-ho-so-nhap-hoc-trinh-do-chuyen-khoa-cap-ii-chuyen-khoa-cap-i-tuyen-sinh-nam-2026": {
+      "url": "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/danh-sach-hoc-vien-nop-ho-so-nhap-hoc-trinh-do-chuyen-khoa-cap-ii-chuyen-khoa-cap-i-tuyen-sinh-nam-2026",
+      "title": "DANH SÁCH HỌC VIÊN NỘP HỒ SƠ NHẬP HỌC TRÌNH ĐỘ CHUYÊN KHOA CẤP II, CHUYÊN KHOA CẤP I TUYỂN SINH NĂM 2026",
+      "date": "23/07/2026"
+    },
+    "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/thong-bao-tuyen-sinh-sau-dai-hoc-2026-dot-2": {
+      "url": "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/thong-bao-tuyen-sinh-sau-dai-hoc-2026-dot-2",
+      "title": "THÔNG BÁO TUYỂN SINH SAU ĐẠI HỌC 2026 (ĐỢT 2)",
+      "date": "09/07/2026"
+    },
+    "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/thong-bao-ve-viec-muc-thu-hoc-phi-va-cac-loai-phi-le-phi-he-dao-tao-sau-dai-hoc-nam-hoc-2026-2027": {
+      "url": "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/thong-bao-ve-viec-muc-thu-hoc-phi-va-cac-loai-phi-le-phi-he-dao-tao-sau-dai-hoc-nam-hoc-2026-2027",
+      "title": "Thông báo về việc mức thu học phí và các loại phí, lệ phí hệ đào tạo Sau đại học năm học 2026-2027",
+      "date": "07/07/2026"
+    },
+    "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/quyet-dinh-cong-nhan-trung-tuyen-trinh-do-chuyen-khoa-cap-i-va-chuyen-khoa-cap-ii-nam-2026": {
+      "url": "https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc/quyet-dinh-cong-nhan-trung-tuyen-trinh-do-chuyen-khoa-cap-i-va-chuyen-khoa-cap-ii-nam-2026",
+      "title": "QUYẾT ĐỊNH CÔNG NHẬN TRÚNG TUYỂN TRÌNH ĐỘ CHUYÊN KHOA CẤP I VÀ CHUYÊN KHOA CẤP II NĂM 2026",
+      "date": "30/06/2026"
+    }
   }
 }
