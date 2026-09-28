@@ -69,6 +69,8 @@ Xóa mục tương ứng trong `SITES` và commit. Có thể để nguyên phầ
 
 ## Chỉnh số phút giữa các lần kiểm tra
 
+> Nếu bạn dùng cron-job.org để kích hoạt workflow (xem mục "Tùy chọn: dùng cron-job.org" bên dưới), hãy đổi chu kỳ trực tiếp trên cron-job.org. Phần dưới đây áp dụng cho lịch `schedule` của GitHub.
+
 Mở `.github/workflows/ump-watch.yml`, sửa dòng `cron`:
 
 ```yaml
@@ -101,6 +103,54 @@ Lưu ý:
 - **Repo public**: chạy không giới hạn phút.
 - **Repo private**: 2.000 phút/tháng. Chạy mỗi 15 phút sẽ vượt hạn mức, nên dùng mỗi 30 phút trở lên.
 
+## Tùy chọn: dùng cron-job.org để kích hoạt workflow
+
+Lịch `schedule` của GitHub chạy theo kiểu "cố gắng hết sức": có thể trễ, bỏ lượt, hoặc với repo mới đôi khi nhiều giờ không chạy lần nào. Nếu tab Actions không thấy các lần chạy "Scheduled", hoặc bạn muốn lịch đều đặn hơn, dùng [cron-job.org](https://cron-job.org) (miễn phí) để gọi GitHub bấm "Run workflow" thay bạn theo chu kỳ.
+
+### Bước 1: tạo token trên GitHub
+
+1. Vào GitHub > ảnh đại diện > **Settings > Developer settings > Personal access tokens > Fine-grained tokens > Generate new token**.
+2. Đặt tên tùy ý, chọn thời hạn (tối đa 1 năm).
+3. **Repository access**: *Only select repositories*, chọn repo `newest-post-checker`.
+4. **Permissions > Repository permissions**: đặt **Actions** thành **Read and write**.
+5. Bấm **Generate token** và **copy token ngay** (chỉ hiện một lần).
+
+Không dán token vào code, README hay bất kỳ file nào trong repo.
+
+### Bước 2: tạo job trên cron-job.org
+
+1. Đăng ký tài khoản miễn phí, bấm **Create cronjob**.
+2. **URL**:
+
+   ```
+   https://api.github.com/repos/alphaumi3/newest-post-checker/actions/workflows/ump-watch.yml/dispatches
+   ```
+
+3. **Schedule**: chọn chu kỳ mong muốn (ví dụ *Every 15 minutes*).
+4. Mở phần **Advanced**:
+   - **Request method**: `POST`
+   - **Headers**, thêm 3 dòng:
+
+     | Header | Giá trị |
+     |--------|---------|
+     | `Authorization` | `Bearer <token vừa copy>` |
+     | `Accept` | `application/vnd.github+json` |
+     | `X-GitHub-Api-Version` | `2022-11-28` |
+
+   - **Request body**: `{"ref":"main"}`
+5. Lưu, rồi bấm **Test run**. Kết quả đúng là mã **HTTP 204** (không có nội dung trả về). Vài giây sau, tab **Actions** sẽ có thêm một lần chạy mới.
+
+Nếu đổi tên user/repo hoặc tên file workflow, sửa lại URL cho khớp.
+
+### Lưu ý khi dùng cron-job.org
+
+- Các lần chạy do cron-job.org kích hoạt hiển thị là "Manually run" (vì dùng `workflow_dispatch`), không phải "Scheduled". Hiệu quả giống nhau.
+- **Đổi số phút**: sửa chu kỳ ngay trong job trên cron-job.org, không cần sửa file `.yml`.
+- Có thể giữ nguyên khối `schedule` trong file `.yml`. Nếu cả hai cùng chạy, mục `concurrency` trong workflow sẽ xếp hàng chứ không chạy chồng, và script chỉ gửi mail cho bài chưa thấy nên không bị gửi trùng. Muốn gọn thì xóa khối `schedule`, chỉ giữ `workflow_dispatch`.
+- **Token có hạn**: khi token hết hạn, job sẽ báo lỗi 401. Tạo token mới (Bước 1) rồi cập nhật lại header `Authorization` trên cron-job.org. Nên ghi chú ngày hết hạn để nhớ gia hạn.
+- Repo private vẫn bị giới hạn 2.000 phút Actions mỗi tháng, dù kích hoạt bằng cách nào. Chạy mỗi 15 phút nên dùng repo public.
+- Nếu Test run không trả về 204: `401` là token sai hoặc hết hạn; `403` là token thiếu quyền Actions (Read and write); `404` là sai URL hoặc token chưa được cấp cho repo này; `422` là sai nội dung body (kiểm tra `{"ref":"main"}` và tên nhánh).
+
 ## Xử lý sự cố
 
 | Hiện tượng | Cách xử lý |
@@ -109,6 +159,7 @@ Lưu ý:
 | Log ghi `Không đọc được bài nào` | Trang có thể đã đổi giao diện hoặc chặn IP của GitHub. Kiểm tra lại selector bằng F12. |
 | Log ghi `[XXX] Lỗi: ...` | Trang tạm thời lỗi hoặc chặn truy cập. Lần chạy sau thường tự ổn lại; các trang khác vẫn chạy bình thường. |
 | Mail ngừng về nhiều ngày | Vào tab Actions xem workflow có bị GitHub tắt do repo lâu không hoạt động không, nếu có thì bấm **Enable workflow**. |
+| Tab Actions không có lần chạy "Scheduled" nào | Lịch của GitHub có thể chưa kích hoạt hoặc bị trễ. Kiểm tra file `.yml` có khối `schedule` đúng, commit lại file một lần để đăng ký lại lịch, hoặc chuyển sang dùng cron-job.org (xem mục ở trên). |
 | Muốn thử gửi mail | Mở `ump_seen.json`, xóa một khối bài trong mục của trang cần thử, commit, rồi chạy **Run workflow**. Bài bị xóa sẽ được coi là bài mới. |
 | Lỗi `No file matched requirements.txt` | Xóa dòng `cache: pip` trong bước `setup-python` của file workflow. |
 
