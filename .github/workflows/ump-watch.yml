@@ -3,7 +3,7 @@ name: UMP watch
 
 on:
   schedule:
-    - cron: "7,37 * * * *"   # mỗi 30 phút, lệch khỏi phút 00 để đỡ bị trễ
+    - cron: "7,22,37,52 * * * *"   # mỗi 15 phút, lệch khỏi phút 00 để đỡ bị trễ
   workflow_dispatch:          # cho phép bấm chạy tay để test
 
 permissions:
