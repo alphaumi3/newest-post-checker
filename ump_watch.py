@@ -41,6 +41,14 @@ SITES = [
         "link": "a.txt-title",
         "date": ".txt-date",
     },
+    {
+        "key": "pnt2",
+        "label": "PNT2",
+        "url": "https://psdh.pnt.edu.vn/vi/thong-bao-539",
+        "item": "section.topic-content .widget",
+        "link": "a.txt-title",
+        "date": ".txt-date",
+    },
 ]
 
 STATE_FILE = Path(__file__).with_name("ump_seen.json")
