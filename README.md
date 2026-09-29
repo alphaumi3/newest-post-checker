@@ -8,6 +8,7 @@ Hiện đang theo dõi:
 |----|--------|-------|
 | `ump` | ĐH Y Dược TP.HCM | https://ump.edu.vn/tuyen-sinh-dao-tao/sau-dai-hoc/tuyen-sinh |
 | `pnt` | ĐH Y khoa Phạm Ngọc Thạch | https://psdh.pnt.edu.vn/vi/tuyen-sinh-sau-dai-hoc |
+| `pnt2` | ĐH Y khoa Phạm Ngọc Thạch | https://psdh.pnt.edu.vn/vi/thong-bao-539 |
 
 ## Cấu trúc repo
 
